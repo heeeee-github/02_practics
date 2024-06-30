@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+SELECT * 
+FROM (
+    SELECT MAX(PRICE) AS MAX_PRICE 
+    FROM PRODUCT 
+    )
+WHERE ROWNUM = 1 
